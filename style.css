@@ -1,0 +1,157 @@
+/* Resetting default browser styles and setting basic font */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for the navigation bar */
+.navbar {
+    background-color: black;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+
+/* Align the logo to the left within the navbar */
+.navbar .navbar-left {
+    float: left;
+}
+
+/* Styling for navigation links */
+.navbar a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Highlight on hover */
+.navbar a:hover {
+    background-color: black;
+    color: blue;
+}
+
+/* Styling for the main content area */
+.content {
+    /* Create space below the navbar */
+    margin-top: 60px; /* Adjust this value as needed */
+    padding: 20px;
+}
+
+/* Resetting margin for heading elements */
+h2 {
+    margin-top: 0;
+}
+
+/* Background color for the entire page */
+body {
+    background-color: #f4f4f4;
+}
+
+/* Add shadow to the navbar */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Add shadow to the content area */
+.content {
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the books table section */
+#books {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the books table */
+.book-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.book-table th, .book-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Styling for the nested table within the books table */
+.nested-table {
+    font-size: 14px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.nested-table table {
+    border: none;
+    width: 100%;
+}
+
+.nested-table td {
+    padding: 5px;
+    border: none;
+}
+
+.nested-table strong {
+    font-weight: bold;
+}
+
+/* Styling for the registration form section */
+#register {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for form input containers */
+.input-container {
+    margin-bottom: 15px;
+}
+
+/* Styling for form labels */
+label {
+    display: block;
+    font-weight: none; /* Change to "bold" or other value if needed */
+    margin-bottom: 5px;
+}
+
+/* Styling for form input fields */
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Styling for form submission button */
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+/* Highlight button on hover */
+button:hover {
+    background-color: black;
+}
+
+/* Add more styling as needed */

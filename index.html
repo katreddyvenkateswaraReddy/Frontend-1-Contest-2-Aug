@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Metadata for character encoding and viewport settings -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Link to external CSS file for styling -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Title of the webpage -->
+    <title>Basic Library System</title>
+  </head>
+  <body>
+    <!-- Navigation section with links -->
+    <nav class="navbar">
+      <a class="navbar-left" href="#library system">Library System</a>
+      <a href="#logout">Logout</a>
+      <a href="#contact us">Contact Us</a>
+      <a href="#register">Register</a>
+      <a href="#books">Books</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="content">
+      <!-- Section for displaying list of books -->
+      <section id="books">
+        <h2>Books</h2>
+        <!-- Table to display book information -->
+        <table class="book-table">            
+          <thead>
+            <!-- Table header row -->
+            <tr>
+              <th>Book ID</th>
+              <th>Title</th>
+              <th>Author</th>
+              <th>Genre</th>
+              <th>Availability</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Table rows with book details -->
+            <tr>
+              <td>1</td>
+              <!-- Nested table for book details -->
+              <td>
+                <table>
+                  <tr>
+                    <td><a href="url">Book Title 1</a></td>
+                  </tr>
+                  <tr>
+                    <td>Publication Date: 2000</td>
+                  </tr>
+                  <tr>
+                    <td>Page Count: 250</td>
+                  </tr>
+                  <tr>
+                    <td>ISBN: 123-4567890123</td>
+                  </tr>
+                </table>
+              </td>
+              <td>Author 1</td>
+              <td>Genre 1</td>
+              <td>Available</td>
+            </tr>
+
+            <tr>
+              <td>2</td>
+              <!-- Nested table for book details -->
+              <td>
+                <table>
+                  <tr>
+                    <td><a href="url">Book Title 2</a></td>
+                  </tr>
+                  <tr>
+                    <td>Publication Date: 2005</td>
+                  </tr>
+                  <tr>
+                    <td>Page Count: 300</td>
+                  </tr>
+                  <tr>
+                    <td>ISBN: 123-4567890123</td>
+                  </tr>
+                </table>
+              </td>
+              <td>Author 2</td>
+              <td>Genre 2</td>
+              <td>Available</td>
+            </tr>
+
+            <tr>
+              <td>3</td>
+              <!-- Nested table for book details -->
+              <td>
+                <table>
+                  <tr>
+                    <td><a href="url">Book Title 3</a></td>
+                  </tr>
+                  <tr>
+                    <td>Publication Date: 2010</td>
+                  </tr>
+                  <tr>
+                    <td>Page Count: 350</td>
+                  </tr>
+                  <tr>
+                    <td>ISBN: 123-4567890123</td>
+                  </tr>
+                </table>
+              </td>
+              <td>Author 3</td>
+              <td>Genre 3</td>
+              <td>Available</td>
+            </tr>
+            <!-- More Book Entries -->
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Section for user registration form -->
+      <section id="register">
+        <h2>Register</h2>
+        <!-- User registration form -->
+        <form id="registration" action="#" method="post">
+            <!-- Form input fields -->
+          <div class="input-container">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" required />
+          </div>
+          <div class="input-container">
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" required />
+          </div>
+          <div class="input-container">
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required />
+          </div>
+          <div class="input-container">
+            <label for="age">Age:</label>
+            <input
+              type="number"
+              id="age"
+              name="age"
+              min="5"
+              max="100"
+              required
+            />
+          </div>
+          <div class="input-container">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="input-container">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+          <div class="input-container">
+            <label for="confirm-password">Confirm Password:</label>
+            <input
+              type="password"
+              id="confirm-password"
+              name="confirm-password"
+              required
+            />
+          </div>
+          <!-- Submission button for the form -->
+          <button type="submit">Register</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
